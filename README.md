@@ -13,20 +13,19 @@ Découvrez tous mes projets, réalisations et détails sur :
 ### Frontend
 - HTML5, CSS3, Tailwind CSS, Bootstrap
 - JavaScript (ES6+), TypeScript
-- React.js / Next.js
-- Vue.js
+- React.js 
+- Vue.js / Nuxt JS
 - Responsive Design & UI/UX moderne
 
 ### Backend
-- Node.js & Express.js
+- Node.js & Express.js & Nest JS
 - PHP & Laravel
-- Python (Django / Flask)
-- Bases de données : MySQL, PostgreSQL, MongoDB
+- Python
+- Bases de données : MySQL, PostgreSQL, MongoDB, Firebase
 - API REST & GraphQL
 
 ### Mobile & Multiplateforme
-- Flutter
-- React Native
+- Dart & Flutter
 
 ### Autres Technologies & Outils
 - Streaming vidéo sécurisé (HLS)
@@ -34,11 +33,12 @@ Découvrez tous mes projets, réalisations et détails sur :
 - Authentification sécurisée (JWT, OAuth)
 - Algorithmique & Structures de données
 - Git & GitHub
-- Déploiement (Vercel, Heroku, etc.)
-- SEO & Performance Web
+- Déploiement (Vercel, LWS, AWS...)
+- - SEO & Performance Web
 
 ### Soft Skills
-- Création de plateformes SaaS éducatives
+- Création d'une plateforme de formations en ligne rémunerée: [FormCam](https://formcamer.com)
+- Création complet d'une plateforme de gestion des demande de visas en ligne 
 - Gestion de projets de A à Z
 - Pédagogie et création de contenu de formation
 - Travail en équipe & Communication
