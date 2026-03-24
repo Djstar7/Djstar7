@@ -1,6 +1,6 @@
-# 👋 Salut, je suis DJ_STAR !
+# 👋 Salut, je suis Stael DJUNE !
 
-Développeur Full Stack passionné et créateur de solutions digitales innovantes.  
+Développeur Full Stack Web / Mobile & DevOps passionné et créateur de solutions digitales innovantes.  
 J’allie **technique**, **créativité** et **pédagogie** pour concevoir des expériences web et mobiles performantes et rentables.
 
 ## 🌟 Mon Portfolio
@@ -33,8 +33,11 @@ Découvrez tous mes projets, réalisations et détails sur :
 - Authentification sécurisée (JWT, OAuth)
 - Algorithmique & Structures de données
 - Git & GitHub
+- Docker
+- Piplines
 - Déploiement (Vercel, LWS, AWS...)
 - - SEO & Performance Web
+    
 
 ### Soft Skills
 - Création d'une plateforme de formations en ligne rémunerée: [FormCam](https://formcamer.com)
