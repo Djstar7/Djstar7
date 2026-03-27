@@ -6,7 +6,7 @@ J’allie **technique**, **créativité** et **pédagogie** pour concevoir des e
 ## 🌟 Mon Portfolio
 Découvrez tous mes projets, réalisations et détails sur :
 
-→ **[portfolio-ft76.ver.app](https://portfolio-ft76.ver.app)**
+→ **[portfolio-ft76.ver.app](https://portfolio-ft76.vercel.app)**
 
 ## 💼 Mes Compétences
 
