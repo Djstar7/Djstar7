@@ -57,6 +57,6 @@ Découvrez tous mes projets, réalisations et détails sur :
 
 ---
 
-⭐ Merci de visiter mon profil ! N’hésitez pas à explorer mes repositories, à me suivre ou à me contacter pour des collaborations.
+Merci de visiter mon profil ! N’hésitez pas à explorer mes repositories, à me suivre ou à me contacter pour des collaborations.
 
-Prêt à travailler ensemble ? ✨
+Prêt à travailler ensemble ? 
