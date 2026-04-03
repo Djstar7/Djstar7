@@ -1,14 +1,14 @@
-# 👋 Salut, je suis Stael DJUNE !
+# Salut, je suis Stael DJUNE !
 
 Développeur Full Stack Web / Mobile & DevOps passionné et créateur de solutions digitales innovantes.  
 J’allie **technique**, **créativité** et **pédagogie** pour concevoir des expériences web et mobiles performantes et rentables.
 
-## 🌟 Mon Portfolio
+## Mon Portfolio
 Découvrez tous mes projets, réalisations et détails sur :
 
 → **[portfolio-ft76.ver.app](https://portfolio-ft76.vercel.app)**
 
-## 💼 Mes Compétences
+## Mes Compétences
 
 ### Frontend
 - HTML5, CSS3, Tailwind CSS, Bootstrap
@@ -48,7 +48,7 @@ Découvrez tous mes projets, réalisations et détails sur :
 
 *(Retrouvez tous les détails, niveaux et projets associés sur mon [portfolio](https://portfolio-ft76.ver.app))*
 
-## 📬 Me contacter
+## Me contacter
 
 - **Email** : infodjstar7@gmail.com
 - **WhatsApp** : [+237 674 69 36 25](https://wa.me/237674693625)
