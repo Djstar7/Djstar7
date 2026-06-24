@@ -46,7 +46,7 @@ Découvrez tous mes projets, réalisations et détails sur :
 - Pédagogie et création de contenu de formation
 - Travail en équipe & Communication
 
-*(Retrouvez tous les détails, niveaux et projets associés sur mon [portfolio](https://portfolio-ft76.ver.app))*
+*(Retrouvez tous les détails, niveaux et projets associés sur mon [portfolio](https://portfolio-7b9c1c.gitlab.io/))*
 
 ## Me contacter
 
