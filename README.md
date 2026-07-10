@@ -6,7 +6,7 @@ J’allie **technique**, **créativité** et **pédagogie** pour concevoir des e
 ## Mon Portfolio
 Découvrez tous mes projets, réalisations et détails sur :
 
-→ **[portfolio-ft76.ver.app](https://portfolio-ft76.vercel.app)**
+→ **[Portfolio]([https://portfolio-ft76.vercel.app](https://portfolio-7b9c1c.gitlab.io/))**
 
 ## Mes Compétences
 
@@ -52,7 +52,7 @@ Découvrez tous mes projets, réalisations et détails sur :
 
 - **Email** : infodjstar7@gmail.com
 - **WhatsApp** : [+237 674 69 36 25](https://wa.me/237674693625)
-- **Portfolio** : [portfolio-ft76.ver.app](https://portfolio-ft76.ver.app)
+- **Portfolio** : [Portfoliop]([https://portfolio-ft76.ver.app](https://portfolio-7b9c1c.gitlab.io/))
 - **FormCam** : [formcamer.com](https://formcamer.com)
 
 ---
