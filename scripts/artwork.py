@@ -1,4 +1,4 @@
-"""DJSTAR7 profile artwork: monochrome system, one gold accent, seven-point mark.
+"""DJSTAR7 profile artwork: midnight blue system, gold star accent, seven-point mark.
 
 Standard library only. Every composition exists in light/dark and desktop/mobile.
 Text placement is checked against an estimated width so a long label fails the
@@ -11,10 +11,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 TOKENS = {
-    "dark": dict(bg="#0A0A0B", surface="#111113", raised="#1C1C1F", border="#27272A",
-                 rule="#3F3F46", fg="#FAFAFA", muted="#A1A1AA", accent="#E9B949"),
-    "light": dict(bg="#FFFFFF", surface="#FAFAFA", raised="#F4F4F5", border="#E4E4E7",
-                  rule="#D4D4D8", fg="#09090B", muted="#52525B", accent="#8A5A00"),
+    "dark": dict(bg="#0A1128", surface="#0F1A3A", raised="#18264D", border="#1F2F5C",
+                 rule="#2E437A", fg="#F4F6FC", muted="#9AA6C8", accent="#E9B949"),
+    "light": dict(bg="#F7F9FD", surface="#FFFFFF", raised="#E6ECF7", border="#D5DDEE",
+                  rule="#B4C1DD", fg="#0A1F44", muted="#4A5878", accent="#1E3A8A"),
 }
 SANS = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
 MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
@@ -283,13 +283,10 @@ def stack(theme, mobile):
 CYCLE = ["Comprendre", "Concevoir", "Développer", "Tester", "Déployer", "Faire évoluer"]
 PRINCIPLES = [
     "Security by Design",
-    "Séparation claire des responsabilités",
-    "SOLID, quand c'est pertinent",
-    "Validation rigoureuse des entrées",
-    "Erreurs et exceptions explicites",
-    "Transactions et concurrence maîtrisées",
+    "Séparation des responsabilités",
+    "Validation stricte des entrées",
+    "Transactions maîtrisées",
     "Tests automatisés",
-    "Documentation technique utile",
 ]
 
 
@@ -335,9 +332,9 @@ def method(theme, mobile):
         d.path("M600 40V420", "border", 1)
         d.label(648, 56, "Principes")
         for i, item in enumerate(PRINCIPLES):
-            y = 112 + i * 42
+            y = 140 + i * 56
             d.path(f"M648 {y - 7}H664", "accent", 2)
-            d.text(684, y, item, 22)
+            d.text(684, y, item, 24)
     d.save(f"assets/branding/method-{suffix(theme, mobile)}.svg")
 
 

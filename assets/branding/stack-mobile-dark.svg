@@ -1,36 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="856" viewBox="0 0 480 856" role="img" aria-labelledby="title desc">
 <title id="title">Stack technique</title><desc id="desc">Backend: PHP 8.2+ / Laravel 12, Node.js / NestJS, TypeScript; Interfaces: REST, WebSockets, gRPC, Webhooks, Sanctum, Spatie Permission; Frontend: Vue 3, Nuxt, React, Next.js, Inertia.js, Tailwind CSS; Mobile: Flutter, Dart, GetX, Provider; Données: PostgreSQL, MySQL, MongoDB, Redis, Prisma; DevOps: Linux, Docker, Compose, Nginx, GitLab CI/CD, VPS; Paiements: Orange Money, MTN MoMo, Stripe, CinetPay, NotchPay, FreemoPay. In progress, learning: Go, IA : LLM, Tool calling, Agents, RAG. Domains, not proficiency levels.</desc>
-<rect x="0.5" y="0.5" width="479" height="855" rx="12" fill="#0A0A0B" stroke="#27272A" stroke-width="1"/>
-<text x="28" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">STACK TECHNIQUE</text>
-<path d="M28 72H452" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="28" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">BACKEND</text>
-<text x="28" y="126" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#FAFAFA" text-anchor="start">PHP 8.2+ / Laravel 12 · Node.js / NestJS</text>
-<text x="28" y="152" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#FAFAFA" text-anchor="start">TypeScript</text>
-<path d="M28 172H452" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="28" y="198" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">INTERFACES</text>
-<text x="28" y="226" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#FAFAFA" text-anchor="start">REST · WebSockets · gRPC · Webhooks</text>
-<text x="28" y="252" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#FAFAFA" text-anchor="start">Sanctum · Spatie Permission</text>
-<path d="M28 272H452" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="28" y="298" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">FRONTEND</text>
-<text x="28" y="326" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#FAFAFA" text-anchor="start">Vue 3 · Nuxt · React · Next.js</text>
-<text x="28" y="352" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#FAFAFA" text-anchor="start">Inertia.js · Tailwind CSS</text>
-<path d="M28 372H452" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="28" y="398" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">MOBILE</text>
-<text x="28" y="426" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#FAFAFA" text-anchor="start">Flutter · Dart · GetX · Provider</text>
-<path d="M28 446H452" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="28" y="472" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">DONNÉES</text>
-<text x="28" y="500" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#FAFAFA" text-anchor="start">PostgreSQL · MySQL · MongoDB · Redis</text>
-<text x="28" y="526" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#FAFAFA" text-anchor="start">Prisma</text>
-<path d="M28 546H452" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="28" y="572" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">DEVOPS</text>
-<text x="28" y="600" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#FAFAFA" text-anchor="start">Linux · Docker · Compose · Nginx</text>
-<text x="28" y="626" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#FAFAFA" text-anchor="start">GitLab CI/CD · VPS</text>
-<path d="M28 646H452" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="28" y="672" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">PAIEMENTS</text>
-<text x="28" y="700" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#FAFAFA" text-anchor="start">Orange Money · MTN MoMo · Stripe</text>
-<text x="28" y="726" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#FAFAFA" text-anchor="start">CinetPay · NotchPay · FreemoPay</text>
-<path d="M28 746H452" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
+<rect x="0.5" y="0.5" width="479" height="855" rx="12" fill="#0A1128" stroke="#1F2F5C" stroke-width="1"/>
+<text x="28" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="500" fill="#9AA6C8" text-anchor="start" letter-spacing="1.5">STACK TECHNIQUE</text>
+<path d="M28 72H452" fill="none" stroke="#1F2F5C" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#9AA6C8" text-anchor="start" letter-spacing="1.5">BACKEND</text>
+<text x="28" y="126" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#F4F6FC" text-anchor="start">PHP 8.2+ / Laravel 12 · Node.js / NestJS</text>
+<text x="28" y="152" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#F4F6FC" text-anchor="start">TypeScript</text>
+<path d="M28 172H452" fill="none" stroke="#1F2F5C" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="198" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#9AA6C8" text-anchor="start" letter-spacing="1.5">INTERFACES</text>
+<text x="28" y="226" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#F4F6FC" text-anchor="start">REST · WebSockets · gRPC · Webhooks</text>
+<text x="28" y="252" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#F4F6FC" text-anchor="start">Sanctum · Spatie Permission</text>
+<path d="M28 272H452" fill="none" stroke="#1F2F5C" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="298" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#9AA6C8" text-anchor="start" letter-spacing="1.5">FRONTEND</text>
+<text x="28" y="326" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#F4F6FC" text-anchor="start">Vue 3 · Nuxt · React · Next.js</text>
+<text x="28" y="352" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#F4F6FC" text-anchor="start">Inertia.js · Tailwind CSS</text>
+<path d="M28 372H452" fill="none" stroke="#1F2F5C" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="398" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#9AA6C8" text-anchor="start" letter-spacing="1.5">MOBILE</text>
+<text x="28" y="426" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#F4F6FC" text-anchor="start">Flutter · Dart · GetX · Provider</text>
+<path d="M28 446H452" fill="none" stroke="#1F2F5C" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="472" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#9AA6C8" text-anchor="start" letter-spacing="1.5">DONNÉES</text>
+<text x="28" y="500" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#F4F6FC" text-anchor="start">PostgreSQL · MySQL · MongoDB · Redis</text>
+<text x="28" y="526" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#F4F6FC" text-anchor="start">Prisma</text>
+<path d="M28 546H452" fill="none" stroke="#1F2F5C" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="572" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#9AA6C8" text-anchor="start" letter-spacing="1.5">DEVOPS</text>
+<text x="28" y="600" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#F4F6FC" text-anchor="start">Linux · Docker · Compose · Nginx</text>
+<text x="28" y="626" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#F4F6FC" text-anchor="start">GitLab CI/CD · VPS</text>
+<path d="M28 646H452" fill="none" stroke="#1F2F5C" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="672" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#9AA6C8" text-anchor="start" letter-spacing="1.5">PAIEMENTS</text>
+<text x="28" y="700" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#F4F6FC" text-anchor="start">Orange Money · MTN MoMo · Stripe</text>
+<text x="28" y="726" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#F4F6FC" text-anchor="start">CinetPay · NotchPay · FreemoPay</text>
+<path d="M28 746H452" fill="none" stroke="#1F2F5C" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
 <text x="28" y="772" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#E9B949" text-anchor="start" letter-spacing="1.5">EN COURS  — APPRENTISSAGE</text>
-<text x="28" y="800" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#A1A1AA" text-anchor="start">Go · IA : LLM · Tool calling · Agents</text>
-<text x="28" y="826" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#A1A1AA" text-anchor="start">RAG</text>
+<text x="28" y="800" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#9AA6C8" text-anchor="start">Go · IA : LLM · Tool calling · Agents</text>
+<text x="28" y="826" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#9AA6C8" text-anchor="start">RAG</text>
 </svg>

@@ -1,53 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="816" viewBox="0 0 1200 816" role="img" aria-labelledby="title desc">
 <title id="title">Produits et initiatives</title><desc id="desc">KPay, FinTech: payments, transfers and savings groups with Mobile Money, 400+ active users. FormCam, EdTech SaaS: online training platform, 150+ users. Estuaire Emploi, mobile: job matching with real-time features, 1,750+ users. DSIE: engineering environment built on shared standards (DES). Original illustrations, not screenshots.</desc>
-<rect x="0.5" y="0.5" width="1199" height="815" rx="12" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
-<text x="36" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="500" fill="#52525B" text-anchor="start" letter-spacing="1.5">PRODUITS &amp; INITIATIVES</text>
-<text x="1164" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="500" fill="#52525B" text-anchor="end" letter-spacing="1.5">04 PROJETS</text>
-<rect x="36" y="84" width="552" height="330" rx="10" fill="#FAFAFA" stroke="#E4E4E7" stroke-width="1"/>
-<text x="68" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#52525B" text-anchor="start" letter-spacing="1.5">01  FINTECH</text>
+<rect x="0.5" y="0.5" width="1199" height="815" rx="12" fill="#F7F9FD" stroke="#D5DDEE" stroke-width="1"/>
+<text x="36" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="500" fill="#4A5878" text-anchor="start" letter-spacing="1.5">PRODUITS &amp; INITIATIVES</text>
+<text x="1164" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="500" fill="#4A5878" text-anchor="end" letter-spacing="1.5">04 PROJETS</text>
+<rect x="36" y="84" width="552" height="330" rx="10" fill="#FFFFFF" stroke="#D5DDEE" stroke-width="1"/>
+<text x="68" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#4A5878" text-anchor="start" letter-spacing="1.5">01  FINTECH</text>
 <g transform="translate(514 114) scale(0.75)">
-<path d="M0 0H16V16H0ZM40 0H56V16H40ZM0 40H16V56H0ZM28 0V22M28 34V56M40 28H56M0 28H22M40 40H56V56H40" fill="none" stroke="#8A5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0H16V16H0ZM40 0H56V16H40ZM0 40H16V56H0ZM28 0V22M28 34V56M40 28H56M0 28H22M40 40H56V56H40" fill="none" stroke="#1E3A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text x="68" y="194" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#09090B" text-anchor="start">KPay</text>
-<text x="68" y="236" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#52525B" text-anchor="start">Paiements, transferts et tontines</text>
-<text x="68" y="266" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#52525B" text-anchor="start">intégrés au Mobile Money.</text>
-<text x="68" y="332" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#09090B" text-anchor="start">Next.js · NestJS · Prisma · PostgreSQL · Redis</text>
-<path d="M68 352H556" fill="none" stroke="#E4E4E7" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="68" y="382" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#8A5A00" text-anchor="start">400+</text>
-<text x="142.4" y="382" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#52525B" text-anchor="start">utilisateurs actifs · 23+ pays</text>
-<rect x="612" y="84" width="552" height="330" rx="10" fill="#FAFAFA" stroke="#E4E4E7" stroke-width="1"/>
-<text x="644" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#52525B" text-anchor="start" letter-spacing="1.5">02  EDTECH / SAAS</text>
+<text x="68" y="194" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#0A1F44" text-anchor="start">KPay</text>
+<text x="68" y="236" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#4A5878" text-anchor="start">Paiements, transferts et tontines</text>
+<text x="68" y="266" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#4A5878" text-anchor="start">intégrés au Mobile Money.</text>
+<text x="68" y="332" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#0A1F44" text-anchor="start">Next.js · NestJS · Prisma · PostgreSQL · Redis</text>
+<path d="M68 352H556" fill="none" stroke="#D5DDEE" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="68" y="382" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#1E3A8A" text-anchor="start">400+</text>
+<text x="142.4" y="382" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#4A5878" text-anchor="start">utilisateurs actifs · 23+ pays</text>
+<rect x="612" y="84" width="552" height="330" rx="10" fill="#FFFFFF" stroke="#D5DDEE" stroke-width="1"/>
+<text x="644" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#4A5878" text-anchor="start" letter-spacing="1.5">02  EDTECH / SAAS</text>
 <g transform="translate(1090 114) scale(0.75)">
-<path d="M28 4L54 16L28 28L2 16ZM2 29L28 41L54 29M2 42L28 54L54 42" fill="none" stroke="#8A5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28 4L54 16L28 28L2 16ZM2 29L28 41L54 29M2 42L28 54L54 42" fill="none" stroke="#1E3A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text x="644" y="194" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#09090B" text-anchor="start">FormCam</text>
-<text x="644" y="236" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#52525B" text-anchor="start">Formations en ligne, formateurs,</text>
-<text x="644" y="266" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#52525B" text-anchor="start">partenaires et abonnements.</text>
-<text x="644" y="332" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#09090B" text-anchor="start">Laravel 12 · Vue 3 · Inertia.js 2 · Tailwind</text>
-<path d="M644 352H1132" fill="none" stroke="#E4E4E7" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="644" y="382" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#8A5A00" text-anchor="start">150+</text>
-<text x="718.4" y="382" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#52525B" text-anchor="start">utilisateurs · projet fondé</text>
-<rect x="36" y="438" width="552" height="330" rx="10" fill="#FAFAFA" stroke="#E4E4E7" stroke-width="1"/>
-<text x="68" y="482" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#52525B" text-anchor="start" letter-spacing="1.5">03  MOBILE</text>
+<text x="644" y="194" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#0A1F44" text-anchor="start">FormCam</text>
+<text x="644" y="236" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#4A5878" text-anchor="start">Formations en ligne, formateurs,</text>
+<text x="644" y="266" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#4A5878" text-anchor="start">partenaires et abonnements.</text>
+<text x="644" y="332" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#0A1F44" text-anchor="start">Laravel 12 · Vue 3 · Inertia.js 2 · Tailwind</text>
+<path d="M644 352H1132" fill="none" stroke="#D5DDEE" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="644" y="382" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#1E3A8A" text-anchor="start">150+</text>
+<text x="718.4" y="382" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#4A5878" text-anchor="start">utilisateurs · projet fondé</text>
+<rect x="36" y="438" width="552" height="330" rx="10" fill="#FFFFFF" stroke="#D5DDEE" stroke-width="1"/>
+<text x="68" y="482" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#4A5878" text-anchor="start" letter-spacing="1.5">03  MOBILE</text>
 <g transform="translate(514 468) scale(0.75)">
-<path d="M2 28A10 10 0 1 0 22 28A10 10 0 1 0 2 28M34 28A10 10 0 1 0 54 28A10 10 0 1 0 34 28M22 28H34M12 8V18M44 38V48" fill="none" stroke="#8A5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 28A10 10 0 1 0 22 28A10 10 0 1 0 2 28M34 28A10 10 0 1 0 54 28A10 10 0 1 0 34 28M22 28H34M12 8V18M44 38V48" fill="none" stroke="#1E3A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text x="68" y="548" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#09090B" text-anchor="start">Estuaire Emploi</text>
-<text x="68" y="590" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#52525B" text-anchor="start">Mise en relation et accès aux</text>
-<text x="68" y="620" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#52525B" text-anchor="start">offres d&#x27;emploi, en temps réel.</text>
-<text x="68" y="686" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#09090B" text-anchor="start">Flutter · Laravel · temps réel</text>
-<path d="M68 706H556" fill="none" stroke="#E4E4E7" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="68" y="736" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#8A5A00" text-anchor="start">1 750+</text>
-<text x="173.6" y="736" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#52525B" text-anchor="start">utilisateurs</text>
-<rect x="612" y="438" width="552" height="330" rx="10" fill="#FAFAFA" stroke="#E4E4E7" stroke-width="1"/>
-<text x="644" y="482" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#52525B" text-anchor="start" letter-spacing="1.5">04  INGÉNIERIE</text>
+<text x="68" y="548" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#0A1F44" text-anchor="start">Estuaire Emploi</text>
+<text x="68" y="590" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#4A5878" text-anchor="start">Mise en relation et accès aux</text>
+<text x="68" y="620" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#4A5878" text-anchor="start">offres d&#x27;emploi, en temps réel.</text>
+<text x="68" y="686" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#0A1F44" text-anchor="start">Flutter · Laravel · temps réel</text>
+<path d="M68 706H556" fill="none" stroke="#D5DDEE" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="68" y="736" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#1E3A8A" text-anchor="start">1 750+</text>
+<text x="173.6" y="736" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#4A5878" text-anchor="start">utilisateurs</text>
+<rect x="612" y="438" width="552" height="330" rx="10" fill="#FFFFFF" stroke="#D5DDEE" stroke-width="1"/>
+<text x="644" y="482" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#4A5878" text-anchor="start" letter-spacing="1.5">04  INGÉNIERIE</text>
 <g transform="translate(1090 468) scale(0.75)">
-<path d="M0 0H22V22H0ZM34 0H56V22H34ZM0 34H22V56H0ZM34 34H56V56H34ZM22 11H34M11 22V34M45 22V34M22 45H34" fill="none" stroke="#8A5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0H22V22H0ZM34 0H56V22H34ZM0 34H22V56H0ZM34 34H56V56H34ZM22 11H34M11 22V34M45 22V34M22 45H34" fill="none" stroke="#1E3A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text x="644" y="548" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#09090B" text-anchor="start">DSIE</text>
-<text x="644" y="590" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#52525B" text-anchor="start">Environnement d&#x27;ingénierie bâti</text>
-<text x="644" y="620" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#52525B" text-anchor="start">sur des standards communs.</text>
-<text x="644" y="686" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#09090B" text-anchor="start">DSIE Engineering Standard (DES)</text>
-<path d="M644 706H1132" fill="none" stroke="#E4E4E7" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="644" y="734" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#8A5A00" text-anchor="start" letter-spacing="1.5">NOYAU COMMUN + STANDARDS PAR TECHNO</text>
+<text x="644" y="548" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#0A1F44" text-anchor="start">DSIE</text>
+<text x="644" y="590" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#4A5878" text-anchor="start">Environnement d&#x27;ingénierie bâti</text>
+<text x="644" y="620" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#4A5878" text-anchor="start">sur des standards communs.</text>
+<text x="644" y="686" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#0A1F44" text-anchor="start">DSIE Engineering Standard (DES)</text>
+<path d="M644 706H1132" fill="none" stroke="#D5DDEE" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="644" y="734" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#1E3A8A" text-anchor="start" letter-spacing="1.5">NOYAU COMMUN + STANDARDS PAR TECHNO</text>
 </svg>

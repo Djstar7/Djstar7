@@ -13,7 +13,7 @@
 
 ## Modifier le contenu
 
-Les textes des visuels se trouvent dans `scripts/artwork.py` : `PRODUCTS`, `STACK`, `LEARNING`, `CYCLE` et `PRINCIPLES`. Après une modification :
+Les textes des visuels se trouvent dans `scripts/artwork.py` : `PRODUCTS`, `STACK`, `LEARNING`, `CYCLE` et `PRINCIPLES` (garder des listes courtes). Après une modification :
 
 ```sh
 python3 scripts/build_artwork.py
@@ -25,8 +25,8 @@ Chaque composition existe en quatre variantes : clair et sombre, bureau (1200 px
 
 ## Identité visuelle
 
-- Base monochrome : noir `#0A0A0B` en thème sombre, blanc en thème clair.
-- Un seul accent, doré : `#E9B949` en thème sombre, `#8A5A00` en thème clair. Ce dernier garde un contraste suffisant sur fond blanc.
+- Couleur principale, le bleu nuit : fond `#0A1128` en thème sombre, texte `#0A1F44` en thème clair.
+- Accent : étoile dorée `#E9B949` sur fond nuit en thème sombre, bleu `#1E3A8A` en thème clair.
 - Les libellés de métadonnées utilisent une police monospace en majuscules. Le texte courant utilise une police sans-serif système.
 - La marque est un heptagramme {7/3} : une étoile à sept branches, pour DJSTAR7.
 - Aucune animation, aucun badge, aucun service d'images externe.

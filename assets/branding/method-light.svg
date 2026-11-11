@@ -1,50 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
-<title id="title">Méthode et principes</title><desc id="desc">Product cycle: Comprendre → Concevoir → Développer → Tester → Déployer → Faire évoluer, then back to understanding. Principles: Security by Design; Séparation claire des responsabilités; SOLID, quand c&#x27;est pertinent; Validation rigoureuse des entrées; Erreurs et exceptions explicites; Transactions et concurrence maîtrisées; Tests automatisés; Documentation technique utile.</desc>
-<rect x="0.5" y="0.5" width="1199" height="459" rx="12" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1"/>
-<text x="36" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="500" fill="#52525B" text-anchor="start" letter-spacing="1.5">CYCLE PRODUIT</text>
-<circle cx="322" cy="250" r="130" fill="none" stroke="#D4D4D8" stroke-width="1.5"/>
-<path d="M322.0 211.0L338.9 285.1L291.5 225.7L360.0 258.7L284.0 258.7L352.5 225.7L305.1 285.1L322.0 211.0" fill="none" stroke="#8A5A00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="322.0" cy="120.0" r="9" fill="#FFFFFF"/>
-<circle cx="322.0" cy="120.0" r="9" fill="none" stroke="#8A5A00" stroke-width="1.5"/>
-<circle cx="322.0" cy="120.0" r="3" fill="#8A5A00"/>
-<text x="322.0" y="92.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#09090B" text-anchor="middle">Comprendre</text>
-<circle cx="434.6" cy="185.0" r="9" fill="#FFFFFF"/>
-<circle cx="434.6" cy="185.0" r="9" fill="none" stroke="#8A5A00" stroke-width="1.5"/>
-<circle cx="434.6" cy="185.0" r="3" fill="#8A5A00"/>
-<text x="453.6" y="180.7" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#09090B" text-anchor="start">Concevoir</text>
-<circle cx="434.6" cy="315.0" r="9" fill="#FFFFFF"/>
-<circle cx="434.6" cy="315.0" r="9" fill="none" stroke="#8A5A00" stroke-width="1.5"/>
-<circle cx="434.6" cy="315.0" r="3" fill="#8A5A00"/>
-<text x="453.6" y="332.7" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#09090B" text-anchor="start">Développer</text>
-<circle cx="322.0" cy="380.0" r="9" fill="#FFFFFF"/>
-<circle cx="322.0" cy="380.0" r="9" fill="none" stroke="#8A5A00" stroke-width="1.5"/>
-<circle cx="322.0" cy="380.0" r="3" fill="#8A5A00"/>
-<text x="322.0" y="426.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#09090B" text-anchor="middle">Tester</text>
-<circle cx="209.4" cy="315.0" r="9" fill="#FFFFFF"/>
-<circle cx="209.4" cy="315.0" r="9" fill="none" stroke="#8A5A00" stroke-width="1.5"/>
-<circle cx="209.4" cy="315.0" r="3" fill="#8A5A00"/>
-<text x="190.4" y="332.7" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#09090B" text-anchor="end">Déployer</text>
-<circle cx="209.4" cy="185.0" r="9" fill="#FFFFFF"/>
-<circle cx="209.4" cy="185.0" r="9" fill="none" stroke="#8A5A00" stroke-width="1.5"/>
-<circle cx="209.4" cy="185.0" r="3" fill="#8A5A00"/>
-<text x="190.4" y="180.7" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#09090B" text-anchor="end">Faire évoluer</text>
-<text x="322" y="323.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#52525B" text-anchor="middle">↻</text>
-<path d="M600 40V420" fill="none" stroke="#E4E4E7" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="648" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="500" fill="#52525B" text-anchor="start" letter-spacing="1.5">PRINCIPES</text>
-<path d="M648 105H664" fill="none" stroke="#8A5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="684" y="112" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#09090B" text-anchor="start">Security by Design</text>
-<path d="M648 147H664" fill="none" stroke="#8A5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="684" y="154" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#09090B" text-anchor="start">Séparation claire des responsabilités</text>
-<path d="M648 189H664" fill="none" stroke="#8A5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="684" y="196" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#09090B" text-anchor="start">SOLID, quand c&#x27;est pertinent</text>
-<path d="M648 231H664" fill="none" stroke="#8A5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="684" y="238" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#09090B" text-anchor="start">Validation rigoureuse des entrées</text>
-<path d="M648 273H664" fill="none" stroke="#8A5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="684" y="280" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#09090B" text-anchor="start">Erreurs et exceptions explicites</text>
-<path d="M648 315H664" fill="none" stroke="#8A5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="684" y="322" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#09090B" text-anchor="start">Transactions et concurrence maîtrisées</text>
-<path d="M648 357H664" fill="none" stroke="#8A5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="684" y="364" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#09090B" text-anchor="start">Tests automatisés</text>
-<path d="M648 399H664" fill="none" stroke="#8A5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="684" y="406" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#09090B" text-anchor="start">Documentation technique utile</text>
+<title id="title">Méthode et principes</title><desc id="desc">Product cycle: Comprendre → Concevoir → Développer → Tester → Déployer → Faire évoluer, then back to understanding. Principles: Security by Design; Séparation des responsabilités; Validation stricte des entrées; Transactions maîtrisées; Tests automatisés.</desc>
+<rect x="0.5" y="0.5" width="1199" height="459" rx="12" fill="#F7F9FD" stroke="#D5DDEE" stroke-width="1"/>
+<text x="36" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="500" fill="#4A5878" text-anchor="start" letter-spacing="1.5">CYCLE PRODUIT</text>
+<circle cx="322" cy="250" r="130" fill="none" stroke="#B4C1DD" stroke-width="1.5"/>
+<path d="M322.0 211.0L338.9 285.1L291.5 225.7L360.0 258.7L284.0 258.7L352.5 225.7L305.1 285.1L322.0 211.0" fill="none" stroke="#1E3A8A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="322.0" cy="120.0" r="9" fill="#F7F9FD"/>
+<circle cx="322.0" cy="120.0" r="9" fill="none" stroke="#1E3A8A" stroke-width="1.5"/>
+<circle cx="322.0" cy="120.0" r="3" fill="#1E3A8A"/>
+<text x="322.0" y="92.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0A1F44" text-anchor="middle">Comprendre</text>
+<circle cx="434.6" cy="185.0" r="9" fill="#F7F9FD"/>
+<circle cx="434.6" cy="185.0" r="9" fill="none" stroke="#1E3A8A" stroke-width="1.5"/>
+<circle cx="434.6" cy="185.0" r="3" fill="#1E3A8A"/>
+<text x="453.6" y="180.7" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0A1F44" text-anchor="start">Concevoir</text>
+<circle cx="434.6" cy="315.0" r="9" fill="#F7F9FD"/>
+<circle cx="434.6" cy="315.0" r="9" fill="none" stroke="#1E3A8A" stroke-width="1.5"/>
+<circle cx="434.6" cy="315.0" r="3" fill="#1E3A8A"/>
+<text x="453.6" y="332.7" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0A1F44" text-anchor="start">Développer</text>
+<circle cx="322.0" cy="380.0" r="9" fill="#F7F9FD"/>
+<circle cx="322.0" cy="380.0" r="9" fill="none" stroke="#1E3A8A" stroke-width="1.5"/>
+<circle cx="322.0" cy="380.0" r="3" fill="#1E3A8A"/>
+<text x="322.0" y="426.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0A1F44" text-anchor="middle">Tester</text>
+<circle cx="209.4" cy="315.0" r="9" fill="#F7F9FD"/>
+<circle cx="209.4" cy="315.0" r="9" fill="none" stroke="#1E3A8A" stroke-width="1.5"/>
+<circle cx="209.4" cy="315.0" r="3" fill="#1E3A8A"/>
+<text x="190.4" y="332.7" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0A1F44" text-anchor="end">Déployer</text>
+<circle cx="209.4" cy="185.0" r="9" fill="#F7F9FD"/>
+<circle cx="209.4" cy="185.0" r="9" fill="none" stroke="#1E3A8A" stroke-width="1.5"/>
+<circle cx="209.4" cy="185.0" r="3" fill="#1E3A8A"/>
+<text x="190.4" y="180.7" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0A1F44" text-anchor="end">Faire évoluer</text>
+<text x="322" y="323.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#4A5878" text-anchor="middle">↻</text>
+<path d="M600 40V420" fill="none" stroke="#D5DDEE" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="648" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="500" fill="#4A5878" text-anchor="start" letter-spacing="1.5">PRINCIPES</text>
+<path d="M648 133H664" fill="none" stroke="#1E3A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="684" y="140" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#0A1F44" text-anchor="start">Security by Design</text>
+<path d="M648 189H664" fill="none" stroke="#1E3A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="684" y="196" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#0A1F44" text-anchor="start">Séparation des responsabilités</text>
+<path d="M648 245H664" fill="none" stroke="#1E3A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="684" y="252" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#0A1F44" text-anchor="start">Validation stricte des entrées</text>
+<path d="M648 301H664" fill="none" stroke="#1E3A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="684" y="308" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#0A1F44" text-anchor="start">Transactions maîtrisées</text>
+<path d="M648 357H664" fill="none" stroke="#1E3A8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="684" y="364" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#0A1F44" text-anchor="start">Tests automatisés</text>
 </svg>

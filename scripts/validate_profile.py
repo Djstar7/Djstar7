@@ -36,8 +36,8 @@ def validate():
     sections = re.findall(r"^#{1,2} (.+)$", readme, re.MULTILINE)
     assert sections == [
         "À propos", "Produits", "Stack technique", "Méthode",
-        "Trajectoire", "Activité GitHub", "Contact",
-    ], "The profile must keep its cover and seven sections"
+        "Activité GitHub", "Contact",
+    ], "The profile must keep its cover and six sections"
     images = Images()
     images.feed(readme)
     assert len(images.paths) >= 20, "Expected light/dark and desktop/mobile image sources"
