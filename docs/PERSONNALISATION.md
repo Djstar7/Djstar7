@@ -52,5 +52,6 @@ python3 scripts/validate_profile.py
 ## Règles éditoriales
 
 - Ne lier que des dépôts publics vérifiés. Aujourd'hui, seul `kpay-php-sdk` est lié.
+- Images externes autorisées (vérifiées le 2026-11-11) : capsule-render, readme-typing-svg, skillicons, shields.io, streak-stats. `github-readme-stats` et `activity-graph` étaient hors service et sont exclus.
 - Les indicateurs d'usage (400+, 150+, 1 750+) sont déclarés. Il faut les mettre à jour quand ils évoluent.
 - Une technologie en cours d'apprentissage reste sur la ligne *En cours*.

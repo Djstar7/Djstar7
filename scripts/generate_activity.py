@@ -79,8 +79,9 @@ def render_block(snapshot, username):
     maximum = max(snapshot["language_counts"].values(), default=0)
     lines = [
         START,
-        f'**{snapshot["repositories"]}** dépôts publics originaux · '
-        f'**{snapshot["primary_languages"]}** langages principaux',
+        "<details>",
+        f'<summary><b>{snapshot["repositories"]}</b> dépôts publics originaux · '
+        f'<b>{snapshot["primary_languages"]}</b> langages principaux</summary>',
         "",
         "| Langage principal | Dépôts | Répartition |",
         "| :-- | --: | :-- |",
@@ -91,6 +92,8 @@ def render_block(snapshot, username):
         "pas un niveau de maîtrise · "
         f'[définitions](assets/generated/activity.md) · '
         f'[tous les dépôts](https://github.com/{username}?tab=repositories)</sub>',
+        "",
+        "</details>",
         END,
     ]
     return "\n".join(lines)

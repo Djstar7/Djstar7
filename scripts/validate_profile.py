@@ -14,6 +14,10 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parents[1]
 NS = "{http://www.w3.org/2000/svg}"
+# Services checked as reachable on 2026-11-11. github-readme-stats (503) and
+# github-readme-activity-graph (402) were unavailable and are deliberately excluded.
+IMAGE_HOSTS = {"capsule-render.vercel.app", "readme-typing-svg.demolab.com", "skillicons.dev",
+               "img.shields.io", "streak-stats.demolab.com"}
 
 
 class Images(HTMLParser):
@@ -25,20 +29,20 @@ class Images(HTMLParser):
         attrs = dict(attrs)
         if tag == "img":
             assert attrs.get("alt"), "Every README image needs meaningful alt text"
-            assert int(attrs.get("width", "0")) <= 96, "Images are small pieces, not full panels"
+            if not urlsplit(attrs["src"]).scheme:
+                assert int(attrs.get("width", "0")) <= 96, "Local images are small pieces"
             self.paths.append(attrs["src"])
 
 
 def validate():
     readme = (ROOT / "README.md").read_text()
     sections = re.findall(r"^## (.+)$", readme, re.MULTILINE)
-    assert sections == ["Produits", "Stack technique", "Méthode", "Activité GitHub", "Contact"], \
-        "The profile must keep its header and five sections"
+    assert sections == ["À propos", "Produits", "Stack technique", "Activité GitHub", "Contact"], \
+        "The profile must keep its banner and five sections"
     assert readme.count(START) == 1 and readme.count(END) == 1, "Activity markers missing"
-    assert "<picture" not in readme, "Content must be native elements, not panel images"
     images = Images()
     images.feed(readme)
-    assert len(images.paths) == 5, "Expected the mark and four product icons"
+    assert len([p for p in images.paths if not urlsplit(p).scheme]) == 5, "Expected the mark and four product icons"
     links = re.findall(r"\]\(([^)]+)\)", readme) + re.findall(r'href="([^"]+)"', readme)
     for path in images.paths + links:
         parsed = urlsplit(path)
@@ -47,7 +51,9 @@ def validate():
         target = (ROOT / unquote(parsed.path)).resolve()
         assert target.is_relative_to(ROOT) and target.is_file(), f"Missing local resource: {path}"
     for path in images.paths:
-        assert not urlsplit(path).scheme, f"README images must be self-contained: {path}"
+        parsed = urlsplit(path)
+        if parsed.scheme:
+            assert parsed.scheme == "https" and parsed.hostname in IMAGE_HOSTS, f"Unverified image service: {path}"
     svgs = list((ROOT / "assets").rglob("*.svg"))
     assert len(svgs) == 5, "Only the five graphic pieces are kept"
     for path in svgs:
