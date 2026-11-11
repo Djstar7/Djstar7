@@ -9,39 +9,39 @@
 <path d="M28 160H452" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="28" y="196" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#FAFAFA" text-anchor="start">HTML</text>
 <rect x="196" y="186" width="210" height="6" rx="3" fill="#1C1C1F" stroke="#1C1C1F" stroke-width="1"/>
-<rect x="196" y="186" width="105.0" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
+<rect x="196" y="186" width="120.0" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
 <text x="452" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" fill="#A1A1AA" text-anchor="end">4</text>
 <text x="28" y="226" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#FAFAFA" text-anchor="start">PHP</text>
 <rect x="196" y="216" width="210" height="6" rx="3" fill="#1C1C1F" stroke="#1C1C1F" stroke-width="1"/>
-<rect x="196" y="216" width="105.0" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
+<rect x="196" y="216" width="120.0" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
 <text x="452" y="226" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" fill="#A1A1AA" text-anchor="end">4</text>
 <text x="28" y="256" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#FAFAFA" text-anchor="start">JavaScript</text>
 <rect x="196" y="246" width="210" height="6" rx="3" fill="#1C1C1F" stroke="#1C1C1F" stroke-width="1"/>
-<rect x="196" y="246" width="78.75" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
+<rect x="196" y="246" width="90.0" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
 <text x="452" y="256" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" fill="#A1A1AA" text-anchor="end">3</text>
 <text x="28" y="286" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#FAFAFA" text-anchor="start">TypeScript</text>
 <rect x="196" y="276" width="210" height="6" rx="3" fill="#1C1C1F" stroke="#1C1C1F" stroke-width="1"/>
-<rect x="196" y="276" width="78.75" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
+<rect x="196" y="276" width="90.0" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
 <text x="452" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" fill="#A1A1AA" text-anchor="end">3</text>
 <text x="28" y="316" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#FAFAFA" text-anchor="start">Vue</text>
 <rect x="196" y="306" width="210" height="6" rx="3" fill="#1C1C1F" stroke="#1C1C1F" stroke-width="1"/>
-<rect x="196" y="306" width="78.75" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
+<rect x="196" y="306" width="90.0" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
 <text x="452" y="316" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" fill="#A1A1AA" text-anchor="end">3</text>
-<text x="28" y="346" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#FAFAFA" text-anchor="start">Astro</text>
+<text x="28" y="346" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#FAFAFA" text-anchor="start">Python</text>
 <rect x="196" y="336" width="210" height="6" rx="3" fill="#1C1C1F" stroke="#1C1C1F" stroke-width="1"/>
-<rect x="196" y="336" width="26.25" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
-<text x="452" y="346" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" fill="#A1A1AA" text-anchor="end">1</text>
-<text x="28" y="376" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#FAFAFA" text-anchor="start">CSS</text>
+<rect x="196" y="336" width="60.0" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
+<text x="452" y="346" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" fill="#A1A1AA" text-anchor="end">2</text>
+<text x="28" y="376" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#FAFAFA" text-anchor="start">Astro</text>
 <rect x="196" y="366" width="210" height="6" rx="3" fill="#1C1C1F" stroke="#1C1C1F" stroke-width="1"/>
-<rect x="196" y="366" width="26.25" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
+<rect x="196" y="366" width="30.0" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
 <text x="452" y="376" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" fill="#A1A1AA" text-anchor="end">1</text>
-<text x="28" y="406" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#FAFAFA" text-anchor="start">Python</text>
+<text x="28" y="406" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#FAFAFA" text-anchor="start">CSS</text>
 <rect x="196" y="396" width="210" height="6" rx="3" fill="#1C1C1F" stroke="#1C1C1F" stroke-width="1"/>
-<rect x="196" y="396" width="26.25" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
+<rect x="196" y="396" width="30.0" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
 <text x="452" y="406" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" fill="#A1A1AA" text-anchor="end">1</text>
 <text x="28" y="436" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#FAFAFA" text-anchor="start">Non classé</text>
 <rect x="196" y="426" width="210" height="6" rx="3" fill="#1C1C1F" stroke="#1C1C1F" stroke-width="1"/>
 <rect x="196" y="426" width="210.0" height="6" rx="3" fill="#E9B949" stroke="#E9B949" stroke-width="1"/>
-<text x="452" y="436" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" fill="#A1A1AA" text-anchor="end">8</text>
+<text x="452" y="436" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" fill="#A1A1AA" text-anchor="end">7</text>
 <text x="28" y="498" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">2026-11-11 UTC · FORKS EXCLUS</text>
 </svg>

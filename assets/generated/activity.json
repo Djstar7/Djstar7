@@ -4,14 +4,14 @@
   "repositories": 28,
   "primary_languages": 8,
   "language_counts": {
-    "Non class\u00e9": 8,
+    "Non class\u00e9": 7,
     "HTML": 4,
     "PHP": 4,
     "JavaScript": 3,
     "TypeScript": 3,
     "Vue": 3,
+    "Python": 2,
     "Astro": 1,
-    "CSS": 1,
-    "Python": 1
+    "CSS": 1
   }
 }
