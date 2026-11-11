@@ -1,47 +1,46 @@
 # Maintenance du profil
 
-## Organisation
+## Principe
+
+Le README est construit avec des éléments natifs de GitHub : titres, tableaux, texte et liens. Il ne contient aucun grand panneau en image. Seules cinq petites pièces graphiques sont dessinées : la marque DJSTAR7 et une icône par produit.
 
 | Élément | Rôle |
 | --- | --- |
-| `README.md` | Présentation publique, textes et liens. |
-| `profile.json` | Identité, liens vérifiés et date de vérification. Seul `username` est lu par le générateur. |
-| `scripts/artwork.py` | Système visuel : couleurs, typographie, étoile DJSTAR7 et compositions. |
-| `scripts/build_artwork.py` | Régénère la couverture, les produits, la stack et la méthode. |
-| `scripts/generate_activity.py` | Génère le snapshot des dépôts publics depuis l'API GitHub. |
-| `scripts/validate_profile.py` | Contrôles hors ligne : sections, images, liens locaux, SVG et actions épinglées. |
+| `README.md` | Contenu du profil, modifiable directement. |
+| `assets/pieces/` | Marque DJSTAR7 (`mark.svg`) et icônes produits (`kpay`, `formcam`, `estuaire`, `dsie`). |
+| `scripts/artwork.py` | Couleurs et dessin des pièces. |
+| `scripts/build_artwork.py` | Régénère les pièces. |
+| `scripts/generate_activity.py` | Réécrit le bloc « Activité GitHub » du README. |
+| `scripts/validate_profile.py` | Contrôles hors ligne : sections, pièces, liens, snapshot et actions épinglées. |
+| `profile.json` | Identité et liens vérifiés. Seul `username` est lu par le générateur. |
+
+## Couleurs
+
+- Fond des pièces : noir `#000000`.
+- Surfaces : bleu nuit `#0A1128`.
+- Tracés : bleu `#3D6BFF`, détails en bleu clair `#A9BCFF`.
+
+Les pièces ont leur propre fond noir et restent donc identiques en thème clair et en thème sombre de GitHub.
 
 ## Modifier le contenu
 
-Les textes des visuels se trouvent dans `scripts/artwork.py` : `PRODUCTS`, `STACK`, `LEARNING`, `CYCLE` et `PRINCIPLES` (garder des listes courtes). Après une modification :
+Les textes, produits, technologies et principes se modifient directement dans `README.md`. Il ne faut pas toucher au bloc compris entre `<!-- activity:start -->` et `<!-- activity:end -->` : il est réécrit automatiquement.
+
+Après une modification des couleurs ou des icônes :
 
 ```sh
 python3 scripts/build_artwork.py
 ```
 
-Chaque texte est contrôlé à partir d'une largeur estimée. Un libellé trop long fait échouer la génération au lieu de déborder du visuel. Il faut alors le raccourcir ou réduire sa taille.
-
-Chaque composition existe en quatre variantes : clair et sombre, bureau (1200 px) et mobile (480 px). Le README choisit la bonne variante avec `<picture>`.
-
-## Identité visuelle
-
-- Couleur principale, le bleu nuit : fond `#0A1128` en thème sombre, texte `#0A1F44` en thème clair.
-- Accent : étoile dorée `#E9B949` sur fond nuit en thème sombre, bleu `#1E3A8A` en thème clair.
-- Les libellés de métadonnées utilisent une police monospace en majuscules. Le texte courant utilise une police sans-serif système.
-- La marque est un heptagramme {7/3} : une étoile à sept branches, pour DJSTAR7.
-- Aucune animation, aucun badge, aucun service d'images externe.
-
 ## Snapshot GitHub
 
-Le workflow `Refresh GitHub snapshot` s'exécute chaque lundi, sur demande, et à chaque modification des scripts sur `main`. Il compte uniquement les dépôts publics détenus par le compte, sans les forks, et ne publie que `assets/generated/`. En cas d'échec, le snapshot précédent est conservé.
+Le workflow `Refresh GitHub snapshot` s'exécute chaque lundi, sur demande, et à chaque modification des scripts sur `main`. Il compte les dépôts publics détenus par le compte, sans les forks. Il réécrit uniquement le bloc d'activité du README et `assets/generated/`. En cas d'échec, le contenu précédent est conservé.
 
 Pour l'exécuter en local :
 
 ```sh
 GH_TOKEN="$(gh auth token)" python3 scripts/generate_activity.py
 ```
-
-Le workflow ne s'exécute que dans le dépôt `Djstar7/Djstar7`. C'est le dépôt spécial que GitHub affiche sur la page de profil.
 
 ## Validation
 
@@ -54,4 +53,4 @@ python3 scripts/validate_profile.py
 
 - Ne lier que des dépôts publics vérifiés. Aujourd'hui, seul `kpay-php-sdk` est lié.
 - Les indicateurs d'usage (400+, 150+, 1 750+) sont déclarés. Il faut les mettre à jour quand ils évoluent.
-- Une technologie en cours d'apprentissage reste sur la ligne « En apprentissage » jusqu'à ce qu'elle soit pratiquée en production.
+- Une technologie en cours d'apprentissage reste sur la ligne *En cours*.

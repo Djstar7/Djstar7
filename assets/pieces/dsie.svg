@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+<title id="title">DSIE</title>
+<rect width="96" height="96" rx="21" fill="#000000"/>
+<circle cx="48.0" cy="48.0" r="38" fill="#0A1128" stroke="#1B2A5E" stroke-width="1"/>
+<g transform="translate(26 26) scale(0.786)">
+<path d="M0 0H22V22H0ZM34 0H56V22H34ZM0 34H22V56H0ZM34 34H56V56H34ZM22 11H34M11 22V34M45 22V34M22 45H34" fill="none" stroke="#3D6BFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

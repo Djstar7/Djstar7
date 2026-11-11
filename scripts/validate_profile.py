@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Offline checks for the profile's SVGs, links, snapshots and action pins."""
+"""Offline checks for the README structure, graphic pieces, links, snapshot and action pins."""
 import json
 import re
 from html.parser import HTMLParser
@@ -8,9 +8,9 @@ from urllib.parse import unquote, urlsplit
 import xml.etree.ElementTree as ET
 
 try:
-    from .artwork import UNCLASSIFIED
+    from .generate_activity import END, START, UNCLASSIFIED
 except ImportError:
-    from artwork import UNCLASSIFIED
+    from generate_activity import END, START, UNCLASSIFIED
 
 ROOT = Path(__file__).resolve().parents[1]
 NS = "{http://www.w3.org/2000/svg}"
@@ -25,23 +25,21 @@ class Images(HTMLParser):
         attrs = dict(attrs)
         if tag == "img":
             assert attrs.get("alt"), "Every README image needs meaningful alt text"
-            assert attrs.get("width") == "100%", "Major README images must fill the content width"
+            assert int(attrs.get("width", "0")) <= 96, "Images are small pieces, not full panels"
             self.paths.append(attrs["src"])
-        elif tag == "source":
-            self.paths.append(attrs["srcset"])
 
 
 def validate():
     readme = (ROOT / "README.md").read_text()
-    sections = re.findall(r"^#{1,2} (.+)$", readme, re.MULTILINE)
-    assert sections == [
-        "À propos", "Produits", "Stack technique", "Méthode",
-        "Activité GitHub", "Contact",
-    ], "The profile must keep its cover and six sections"
+    sections = re.findall(r"^## (.+)$", readme, re.MULTILINE)
+    assert sections == ["Produits", "Stack technique", "Méthode", "Activité GitHub", "Contact"], \
+        "The profile must keep its header and five sections"
+    assert readme.count(START) == 1 and readme.count(END) == 1, "Activity markers missing"
+    assert "<picture" not in readme, "Content must be native elements, not panel images"
     images = Images()
     images.feed(readme)
-    assert len(images.paths) >= 20, "Expected light/dark and desktop/mobile image sources"
-    links = re.findall(r"\]\(([^)]+)\)", readme)
+    assert len(images.paths) == 5, "Expected the mark and four product icons"
+    links = re.findall(r"\]\(([^)]+)\)", readme) + re.findall(r'href="([^"]+)"', readme)
     for path in images.paths + links:
         parsed = urlsplit(path)
         if parsed.scheme or not parsed.path:
@@ -51,7 +49,7 @@ def validate():
     for path in images.paths:
         assert not urlsplit(path).scheme, f"README images must be self-contained: {path}"
     svgs = list((ROOT / "assets").rglob("*.svg"))
-    assert len(svgs) >= 20
+    assert len(svgs) == 5, "Only the five graphic pieces are kept"
     for path in svgs:
         source = path.read_text()
         assert "<!ENTITY" not in source and "<!DOCTYPE" not in source
@@ -76,7 +74,7 @@ def validate():
             assert re.fullmatch(r"[\w/-]+@[0-9a-f]{40}", action), f"Unpinned action: {action}"
         assert "pull_request_target" not in workflow
         assert "write-all" not in workflow
-    print(f"Validated {len(svgs)} SVGs, {len(images.paths)} image references, local links, statistics and action pins")
+    print(f"Validated README structure, {len(svgs)} graphic pieces, local links, snapshot and action pins")
 
 
 if __name__ == "__main__":

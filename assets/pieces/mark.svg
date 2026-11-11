@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+<title id="title">DJSTAR7</title>
+<rect width="160" height="160" rx="35" fill="#000000"/>
+<circle cx="80.0" cy="80.0" r="66" fill="#0A1128" stroke="#1B2A5E" stroke-width="1.5"/>
+<path d="M80.0 34.0L100.0 121.4L44.0 51.3L124.8 90.2L35.2 90.2L116.0 51.3L60.0 121.4L80.0 34.0" fill="none" stroke="#3D6BFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="80.0" cy="34.0" r="3.5" fill="#A9BCFF"/>
+<circle cx="116.0" cy="51.3" r="3.5" fill="#A9BCFF"/>
+<circle cx="124.8" cy="90.2" r="3.5" fill="#A9BCFF"/>
+<circle cx="100.0" cy="121.4" r="3.5" fill="#A9BCFF"/>
+<circle cx="60.0" cy="121.4" r="3.5" fill="#A9BCFF"/>
+<circle cx="35.2" cy="90.2" r="3.5" fill="#A9BCFF"/>
+<circle cx="44.0" cy="51.3" r="3.5" fill="#A9BCFF"/>
+</svg>

@@ -7,8 +7,8 @@ from unittest.mock import patch
 
 from scripts import artwork
 from scripts import generate_activity as generator
-from scripts.artwork import UNCLASSIFIED, Canvas
-from scripts.generate_activity import public_repositories, render_svg, summarize
+from scripts.generate_activity import (END, START, UNCLASSIFIED, bar, inject,
+                                       public_repositories, render_block, summarize)
 
 OWNER = "Djstar7"
 
@@ -21,23 +21,27 @@ def repository(identifier, **changes):
 
 
 class SnapshotTests(unittest.TestCase):
-    def test_refresh_writes_matching_desktop_and_mobile_snapshots(self):
+    def test_refresh_rewrites_only_the_marked_readme_block(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
-            output = root / "assets/generated"
             (root / "profile.json").write_text(json.dumps({"username": OWNER}))
-            with patch.object(generator, "ROOT", root), patch.object(generator, "OUTPUT", output), \
+            (root / "README.md").write_text(f"# Avant\n\n{START}\nancien\n{END}\n\n## Après\n")
+            with patch.object(generator, "ROOT", root), \
+                    patch.object(generator, "OUTPUT", root / "assets/generated"), \
                     patch.object(generator, "public_repositories",
-                                 return_value=[{"name": "sample", "language": "PHP"}]):
+                                 return_value=[{"name": "a", "language": "PHP"}]):
                 generator.main()
-            snapshot = json.loads((output / "activity.json").read_text())
+            readme = (root / "README.md").read_text()
+            self.assertTrue(readme.startswith("# Avant"))
+            self.assertTrue(readme.endswith("## Après\n"))
+            self.assertNotIn("ancien", readme)
+            self.assertIn("| PHP | 1 |", readme)
+            snapshot = json.loads((root / "assets/generated/activity.json").read_text())
             self.assertEqual(snapshot["repositories"], 1)
-            for theme in ("light", "dark"):
-                for mobile in (False, True):
-                    source = (output / f'activity-{"mobile-" if mobile else ""}{theme}.svg').read_text()
-                    self.assertEqual(ET.fromstring(source).get("width"), "480" if mobile else "1200")
-                    self.assertIn(snapshot["updated"], source)
-                    self.assertIn("PHP", source)
+
+    def test_missing_markers_fail_instead_of_losing_content(self):
+        with self.assertRaises(ValueError):
+            inject("# README sans marqueurs\n", f"{START}\n{END}")
 
     def test_only_public_owned_original_repositories_are_counted(self):
         data = [repository(1), repository(2, private=True), repository(3, fork=True),
@@ -55,18 +59,17 @@ class SnapshotTests(unittest.TestCase):
         self.assertEqual(len(public_repositories(OWNER, fetch)), 101)
         self.assertIn("page=2", calls[1])
 
-    def test_unclassified_is_not_a_language(self):
-        result = summarize([{"language": "PHP"}, {"language": "PHP"}, {"language": None}], "2026-11-11")
-        self.assertEqual(result["repositories"], 3)
+    def test_unclassified_is_listed_last_and_is_not_a_language(self):
+        result = summarize([{"language": None}, {"language": None}, {"language": "PHP"}], "2026-11-11")
         self.assertEqual(result["primary_languages"], 1)
-        self.assertEqual(result["language_counts"], {"PHP": 2, UNCLASSIFIED: 1})
+        self.assertEqual(list(result["language_counts"]), ["PHP", UNCLASSIFIED])
 
-    def test_empty_account_and_xml_escaping(self):
-        for repos in ([], [{"language": "A&B"}]):
-            result = summarize(repos, "2026-11-11")
-            for dark in (True, False):
-                for mobile in (True, False):
-                    ET.fromstring(render_svg(result, dark, mobile))
+    def test_bars_and_table_escaping(self):
+        self.assertEqual(bar(4, 4), "█" * 20)
+        self.assertEqual(bar(1, 100), "█" + "░" * 19)
+        block = render_block(summarize([{"language": "A|B"}], "2026-11-11"), OWNER)
+        self.assertIn("A\\|B", block)
+        self.assertEqual(render_block(summarize([], "2026-11-11"), OWNER).count(START), 1)
 
     def test_api_error_is_not_treated_as_zero_repositories(self):
         def unavailable(_):
@@ -75,17 +78,15 @@ class SnapshotTests(unittest.TestCase):
             public_repositories(OWNER, unavailable)
 
 
-class ArtworkTests(unittest.TestCase):
-    def test_overflowing_text_fails_the_build(self):
-        with self.assertRaises(ValueError):
-            Canvas(480, 100, "dark", "t", "d").text(28, 50, "x" * 80, 22)
-
-    def test_every_composition_builds_valid_svg(self):
+class PieceTests(unittest.TestCase):
+    def test_pieces_use_black_background_and_blue_drawing(self):
         with tempfile.TemporaryDirectory() as temporary:
             with patch.object(artwork, "ROOT", Path(temporary)):
                 artwork.main()
             files = list(Path(temporary).rglob("*.svg"))
-            self.assertEqual(len(files), 16)
+            self.assertEqual(len(files), 5)
             for path in files:
-                root = ET.fromstring(path.read_text())
-                self.assertIsNotNone(root.get("viewBox"))
+                source = path.read_text()
+                ET.fromstring(source)
+                self.assertIn('fill="#000000"', source)
+                self.assertIn(artwork.COLORS["blue"], source)
