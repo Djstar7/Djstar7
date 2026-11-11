@@ -24,7 +24,7 @@ const djstar7 = {
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/pieces/kpay.svg" width="48" alt="KPay">
+      <img src="assets/projects/kpay.png" width="64" alt="KPay">
       <h3>KPay</h3>
       <sub>FINTECH</sub>
       <p>Paiements, transferts et tontines intégrés au Mobile Money.</p>
@@ -32,7 +32,7 @@ const djstar7 = {
       <p><b>400+</b> utilisateurs actifs · <b>23+</b> pays<br><a href="https://github.com/Djstar7/kpay-php-sdk">SDK PHP / Laravel →</a></p>
     </td>
     <td width="50%" valign="top">
-      <img src="assets/pieces/formcam.svg" width="48" alt="FormCam">
+      <img src="assets/projects/formcam.png" width="64" alt="FormCam">
       <h3>FormCam</h3>
       <sub>EDTECH · SAAS</sub>
       <p>Formations en ligne, formateurs, partenaires et abonnements.</p>
@@ -42,7 +42,7 @@ const djstar7 = {
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/pieces/estuaire.svg" width="48" alt="Estuaire Emploi">
+      <img src="assets/projects/estuaire.png" width="64" alt="Estuaire Emploi">
       <h3>Estuaire Emploi</h3>
       <sub>MOBILE</sub>
       <p>Mise en relation et accès aux offres d'emploi, en temps réel.</p>
@@ -50,7 +50,7 @@ const djstar7 = {
       <p><b>1 750+</b> utilisateurs</p>
     </td>
     <td width="50%" valign="top">
-      <img src="assets/pieces/dsie.svg" width="48" alt="DSIE">
+      <img src="assets/projects/dsie.png" width="64" alt="DSIE">
       <h3>DSIE</h3>
       <sub>INGÉNIERIE</sub>
       <p>Environnement d'ingénierie bâti sur des standards communs.</p>

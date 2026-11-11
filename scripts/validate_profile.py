@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Offline checks for the README structure, graphic pieces, links, snapshot and action pins."""
+"""Offline checks for the README structure, logos, links, snapshot and action pins."""
 import json
 import re
 from html.parser import HTMLParser
@@ -29,8 +29,8 @@ class Images(HTMLParser):
         attrs = dict(attrs)
         if tag == "img":
             assert attrs.get("alt"), "Every README image needs meaningful alt text"
-            if attrs["src"].startswith("assets/pieces/"):
-                assert int(attrs.get("width", "0")) <= 96, "Product icons stay small"
+            if attrs["src"].startswith("assets/projects/"):
+                assert int(attrs.get("width", "0")) <= 96, "Product logos stay small"
             self.paths.append(attrs["src"])
 
 
@@ -42,7 +42,7 @@ def validate():
     assert readme.count(START) == 1 and readme.count(END) == 1, "Activity markers missing"
     images = Images()
     images.feed(readme)
-    assert len([p for p in images.paths if not urlsplit(p).scheme]) == 5, "Expected the Djstar7 logo and four product icons"
+    assert len([p for p in images.paths if not urlsplit(p).scheme]) == 5, "Expected the Djstar7 logo and four product logos"
     links = re.findall(r"\]\(([^)]+)\)", readme) + re.findall(r'href="([^"]+)"', readme)
     for path in images.paths + links:
         parsed = urlsplit(path)
@@ -55,8 +55,8 @@ def validate():
         if parsed.scheme:
             assert parsed.scheme == "https" and parsed.hostname in IMAGE_HOSTS, f"Unverified image service: {path}"
     svgs = list((ROOT / "assets").rglob("*.svg"))
-    assert len(svgs) == 4, "Only the four product icons are kept"
-    assert (ROOT / "assets/brand/djstar7.png").stat().st_size < 400_000, "Keep the logo light"
+    for image in [ROOT / "assets/brand/djstar7.png", *(ROOT / "assets/projects").glob("*.png")]:
+        assert image.stat().st_size < 400_000, f"Keep images light: {image}"
     for path in svgs:
         source = path.read_text()
         assert "<!ENTITY" not in source and "<!DOCTYPE" not in source
@@ -81,7 +81,7 @@ def validate():
             assert re.fullmatch(r"[\w/-]+@[0-9a-f]{40}", action), f"Unpinned action: {action}"
         assert "pull_request_target" not in workflow
         assert "write-all" not in workflow
-    print(f"Validated README structure, {len(svgs)} graphic pieces, local links, snapshot and action pins")
+    print("Validated README structure, logos, local links, snapshot and action pins")
 
 
 if __name__ == "__main__":

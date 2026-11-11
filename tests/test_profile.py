@@ -5,7 +5,6 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from unittest.mock import patch
 
-from scripts import artwork
 from scripts import generate_activity as generator
 from scripts.generate_activity import (END, START, UNCLASSIFIED, bar, inject,
                                        public_repositories, render_block, summarize)
@@ -76,17 +75,3 @@ class SnapshotTests(unittest.TestCase):
             raise RuntimeError("Service unavailable")
         with self.assertRaises(RuntimeError):
             public_repositories(OWNER, unavailable)
-
-
-class PieceTests(unittest.TestCase):
-    def test_pieces_use_black_background_and_blue_drawing(self):
-        with tempfile.TemporaryDirectory() as temporary:
-            with patch.object(artwork, "ROOT", Path(temporary)):
-                artwork.main()
-            files = list(Path(temporary).rglob("*.svg"))
-            self.assertEqual(len(files), 4)
-            for path in files:
-                source = path.read_text()
-                ET.fromstring(source)
-                self.assertIn('fill="#000000"', source)
-                self.assertIn(artwork.COLORS["blue"], source)
