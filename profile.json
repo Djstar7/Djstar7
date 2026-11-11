@@ -1,0 +1,15 @@
+{
+  "username": "Djstar7",
+  "name": "Staël Djune",
+  "brand": "DJSTAR7",
+  "signature": "Vision • Discipline • Impact",
+  "contacts": {
+    "github": "https://github.com/Djstar7",
+    "portfolio": "https://portfolio-7b9c1c.gitlab.io"
+  },
+  "contacts_verified_on": "2026-11-11",
+  "contacts_source": "https://api.github.com/users/Djstar7",
+  "public_repositories_linked": [
+    "kpay-php-sdk"
+  ]
+}

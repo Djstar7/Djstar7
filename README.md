@@ -1,123 +1,81 @@
-<div align="center">
+<picture>
+  <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="assets/branding/cover-mobile-dark.svg">
+  <source media="(max-width: 760px)" srcset="assets/branding/cover-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/branding/cover-dark.svg">
+  <img src="assets/branding/cover-light.svg" alt="Staël Djune, DJSTAR7. Full-Stack Engineer, Web, Mobile et Backend, basé au Cameroun. Vision, Discipline, Impact." width="100%">
+</picture>
 
-<h1>👋 Salut, moi c'est <b>STAËL DJUNE</b></h1>
+## À propos
 
-<h3>Développeur Full-Stack Web & Mobile · Laravel · Vue.js · Flutter · CI/CD</h3>
+Je suis **Staël Djune**, alias **DJSTAR7**, développeur Full-Stack basé au Cameroun.
+Je conçois des applications Web et Mobile avec une orientation Backend marquée : API, paiements, données et déploiement.
+Je construis des produits pour des usages réels, en particulier dans les écosystèmes africains.
+Mon objectif est d'accompagner un produit sur tout son cycle, de la compréhension du problème à la production, puis à son évolution.
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2F80ED&center=true&vCenter=true&width=900&lines=D%C3%A9veloppeur+Full-Stack+Web+%26+Mobile;Laravel+%E2%80%A2+Vue+3+%E2%80%A2+Flutter;Int%C3%A9grations+Mobile+Money+%3A+Orange+Money+%26+MTN+MoMo;FinTech+%26+EdTech+pour+l%27Afrique;CI%2FCD%2C+Docker+et+mise+en+production" />
+## Produits
 
-<br><br>
+<picture>
+  <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="assets/branding/products-mobile-dark.svg">
+  <source media="(max-width: 760px)" srcset="assets/branding/products-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/branding/products-dark.svg">
+  <img src="assets/branding/products-light.svg" alt="Quatre projets : KPay (FinTech, plus de 400 utilisateurs actifs), FormCam (EdTech et SaaS, plus de 150 utilisateurs), Estuaire Emploi (application mobile, plus de 1 750 utilisateurs) et DSIE (standards d'ingénierie). Illustrations originales, pas des captures d'écran." width="100%">
+</picture>
 
-![](https://komarev.com/ghpvc/?username=Djstar7&label=Vues+du+profil&color=0e75b6&style=flat)
+- **KPay** · FinTech : paiements numériques, transferts par QR Code et Bluetooth, tontines, épargne et paiement de factures, avec intégrations Mobile Money. Le SDK PHP / Laravel est public : **[kpay-php-sdk →](https://github.com/Djstar7/kpay-php-sdk)** (vérification HMAC des retours, webhooks, suivi du statut final).
+- **FormCam** · EdTech / SaaS : plateforme d'apprentissage en ligne que j'ai fondée. Elle couvre les formations, les formateurs, les apprenants, les partenaires et les abonnements.
+- **Estuaire Emploi** · Mobile : application Flutter et Laravel de mise en relation et d'accès aux opportunités d'emploi, avec des fonctionnalités temps réel.
+- **DSIE** · Ingénierie : *Digital Solution Innovation Environment*. Son référentiel, le DSIE Engineering Standard (DES), définit des standards communs de qualité, de sécurité, de tests et de gouvernance Git, pour les développeurs comme pour les agents IA.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-2F80ED?style=for-the-badge)](https://portfolio-7b9c1c.gitlab.io/)
-[![FormCam](https://img.shields.io/badge/FormCam-0A66C2?style=for-the-badge)](https://formcamer.com)
-[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/Djstar7)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stael-djune-b34669357/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:infodjstar7@gmail.com)
+<sub>Indicateurs d'usage déclarés pour chaque produit. Parmi ces projets, seul le SDK KPay est publié sur ce compte.</sub>
 
-</div>
+## Stack technique
 
----
+<picture>
+  <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="assets/branding/stack-mobile-dark.svg">
+  <source media="(max-width: 760px)" srcset="assets/branding/stack-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/branding/stack-dark.svg">
+  <img src="assets/branding/stack-light.svg" alt="Domaines techniques, pas des niveaux. Backend : PHP 8.2+ et Laravel 12, Node.js et NestJS, TypeScript. Interfaces : REST, WebSockets, gRPC, Webhooks, Sanctum, Spatie Permission. Frontend : Vue 3, Nuxt, React, Next.js, Inertia.js, Tailwind CSS. Mobile : Flutter, Dart, GetX, Provider. Données : PostgreSQL, MySQL, MongoDB, Redis, Prisma. DevOps : Linux, Docker, Compose, Nginx, GitLab CI/CD, VPS. Paiements : Orange Money, MTN MoMo, Stripe, CinetPay, NotchPay, FreemoPay. En apprentissage : Go, et l'IA appliquée (LLM, tool calling, agents, RAG)." width="100%">
+</picture>
 
-# 👨‍💻 À propos de moi
+Le Backend est ma pratique principale, avec une attention particulière aux paiements : PayIn/PayOut, webhooks, signatures HMAC, idempotence et gestion des transactions. La dernière ligne, Go et l'IA appliquée, décrit un apprentissage en cours, pas une expertise.
 
-Développeur **Full-Stack Web & Mobile** basé au **Cameroun**. Je conçois et je mets en production des produits **FinTech** et **SaaS** pensés pour les contraintes réelles du marché africain : paiement Mobile Money, réseaux instables, faible bande passante, devise XAF.
+## Méthode
 
-Mon terrain de jeu : **Laravel** côté backend, **Vue 3 / Inertia** côté web, **Flutter** côté mobile, et une chaîne **Docker + GitLab CI/CD** pour livrer sans casser la production.
+<picture>
+  <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="assets/branding/method-mobile-dark.svg">
+  <source media="(max-width: 760px)" srcset="assets/branding/method-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/branding/method-dark.svg">
+  <img src="assets/branding/method-light.svg" alt="Cycle produit : comprendre, concevoir, développer, tester, déployer, faire évoluer, puis recommencer. Principes : Security by Design, séparation des responsabilités, SOLID quand c'est pertinent, validation des entrées, erreurs explicites, transactions et concurrence maîtrisées, tests automatisés, documentation utile." width="100%">
+</picture>
 
-- 🚀 Fondateur de **FormCam** (EdTech) et **K-PAY** (FinTech)
-- 💳 Spécialité : intégration **Orange Money**, **MTN MoMo** et **Stripe** — webhooks signés, sandbox, USSD
-- 💻 Backend : **Laravel / PHP 8.2+**, **NestJS / Node.js**, APIs REST
-- 🎨 Frontend : **Vue 3 (Composition API)**, **TypeScript**, **Inertia.js**, **Tailwind CSS**
-- 📱 Mobile : **Flutter / Dart**
-- 🐳 Infra : **Docker**, **GitLab CI/CD (+ SAST)**, **Nginx**, administration **VPS Linux**
-- 📚 En cours de montée en compétence : **Go**, **Kubernetes**, **Terraform**, observabilité (OpenTelemetry, Prometheus/Grafana), tests automatisés
-- 🎓 BTS Génie Logiciel en cours — IUEs/INSAM (2024–2026)
-- 🤝 Mentor de développeurs juniors chez **DevFutureLab**
-- 📫 **infodjstar7@gmail.com**
+Mes conventions : sous Laravel, j'utilise Services, Events, Jobs, Observers et Policies quand ils apportent une réelle valeur, avec Sanctum et Spatie Permission selon le contexte. Sous Flutter, je privilégie GetX. En SQL, j'écris les tables et les colonnes en `snake_case`. Pour l'infrastructure, je privilégie des environnements reproductibles avec Docker.
 
----
+## Trajectoire
 
-# ⚙️ Technologies
+1. Renforcer l'architecture logicielle et le Backend.
+2. Construire une véritable expertise DevOps.
+3. Maîtriser les systèmes distribués et les architectures évolutives.
+4. Approfondir l'IA appliquée au logiciel : tool calling, agents, RAG.
+5. Contribuer à l'Open Source et faire grandir des produits à impact.
 
-<div align="center">
+## Activité GitHub
 
-**Au quotidien**
-
-<img src="https://skillicons.dev/icons?i=laravel,php,vue,ts,tailwind,flutter,dart,mysql,docker,gitlab,nginx,linux,git&perline=7"/>
-
-**Régulièrement / en approfondissement**
-
-<img src="https://skillicons.dev/icons?i=nestjs,nodejs,go,postgres,mongodb,redis,githubactions,vscode&perline=8"/>
-
-</div>
-
----
-
-# 🚀 Projets en production
-
-| Projet | Description | Stack | Traction |
-|---|---|---|---|
-| 🎓 **[FormCam](https://formcamer.com)** | Plateforme SaaS e-learning multi-rôles : paiement Mobile Money, streaming vidéo sécurisé en HLS, tableaux de bord par rôle | Laravel 12 · Vue 3 · Inertia · MySQL | 150+ utilisateurs · checkout Mobile Money < 4 s |
-| 💳 **K-PAY** | Agrégation de paiements et services financiers : Mobile Money, QR code, épargne, tontines numériques — accessible en web, mobile et USSD | NestJS · Next.js · TypeScript | 400+ utilisateurs actifs · 4 intégrations Mobile Money |
-| 💼 **Estuaire Emploi** | Mise en relation candidats / entreprises au Cameroun, avec messagerie temps réel | Flutter · Dart · Laravel · REST API | 1750+ utilisateurs · publiée sur le Play Store |
-
-> 🔒 Le code de ces produits est privé (données de paiement et clients). Des extraits d'architecture et des composants réutilisables sont publiés ici et sur [GitLab](https://gitlab.com/Djstar7).
-
----
-
-# 🧩 Ce sur quoi je travaille en ce moment
-
-- Fiabilisation des paiements : idempotence des webhooks, machine à états des transactions, réconciliation automatique
-- Couverture de tests sur les modules critiques (Pest / PHPUnit, Vitest)
-- Observabilité : logs structurés, métriques par opérateur Mobile Money, alerting
-
----
-
-# 📊 Statistiques GitHub
-
-<div align="center">
-
-![](https://streak-stats.demolab.com?user=Djstar7&theme=tokyonight&hide_border=true)
-
-<br>
-
-![](https://github-readme-stats.vercel.app/api?username=Djstar7&show_icons=true&theme=tokyonight&hide_border=true)
-
-<!--
-  Carte "top langages" volontairement désactivée : elle reflète surtout d'anciens
-  dépôts d'apprentissage (HTML/CSS/JS) et ne représente pas mon travail actuel.
-  À réactiver une fois les dépôts publics nettoyés / archivés :
-  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Djstar7&layout=compact&theme=tokyonight&hide_border=true)
--->
-
-</div>
-
----
-
-# 🤝 Restons en contact
-
-<div align="center">
-
-<a href="mailto:infodjstar7@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://www.linkedin.com/in/stael-djune-b34669357/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://gitlab.com/Djstar7">
-<img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white"/>
-</a>
-<a href="https://portfolio-7b9c1c.gitlab.io/">
-<img src="https://img.shields.io/badge/Portfolio-0052CC?style=for-the-badge"/>
-</a>
-<a href="https://formcamer.com">
-<img src="https://img.shields.io/badge/FormCam-2F80ED?style=for-the-badge"/>
+<a href="assets/generated/activity.md">
+  <picture>
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="assets/generated/activity-mobile-dark.svg">
+    <source media="(max-width: 760px)" srcset="assets/generated/activity-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/generated/activity-dark.svg">
+    <img src="assets/generated/activity-light.svg" alt="Snapshot daté des dépôts publics originaux, forks exclus, répartis par langage principal. Les barres comptent des dépôts, pas un niveau de maîtrise." width="100%">
+  </picture>
 </a>
 
-<br><br>
+[Détail et définitions](assets/generated/activity.md) · [Tous les dépôts](https://github.com/Djstar7?tab=repositories)
 
-### ⭐ *« Développer des logiciels qui font avancer l'Afrique. »*
+## Contact
 
-</div>
+**Un produit à construire, une architecture à structurer ?**<br>
+Parlons du problème avant de parler de code.
+
+[Portfolio](https://portfolio-7b9c1c.gitlab.io) · [GitHub](https://github.com/Djstar7)
+
+<sub>VISION • DISCIPLINE • IMPACT</sub>

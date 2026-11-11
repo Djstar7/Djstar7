@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="568" viewBox="0 0 1200 568" role="img" aria-labelledby="title desc">
+<title id="title">Stack technique</title><desc id="desc">Backend: PHP 8.2+ / Laravel 12, Node.js / NestJS, TypeScript; Interfaces: REST, WebSockets, gRPC, Webhooks, Sanctum, Spatie Permission; Frontend: Vue 3, Nuxt, React, Next.js, Inertia.js, Tailwind CSS; Mobile: Flutter, Dart, GetX, Provider; Données: PostgreSQL, MySQL, MongoDB, Redis, Prisma; DevOps: Linux, Docker, Compose, Nginx, GitLab CI/CD, VPS; Paiements: Orange Money, MTN MoMo, Stripe, CinetPay, NotchPay, FreemoPay. In progress, learning: Go, IA : LLM, Tool calling, Agents, RAG. Domains, not proficiency levels.</desc>
+<rect x="0.5" y="0.5" width="1199" height="567" rx="12" fill="#0A0A0B" stroke="#27272A" stroke-width="1"/>
+<text x="36" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">STACK TECHNIQUE</text>
+<text x="1164" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="500" fill="#A1A1AA" text-anchor="end" letter-spacing="1.5">DOMAINES, PAS DES NIVEAUX</text>
+<path d="M36 84H1164" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">BACKEND</text>
+<text x="260" y="119" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#FAFAFA" text-anchor="start">PHP 8.2+ / Laravel 12 · Node.js / NestJS · TypeScript</text>
+<path d="M36 138H1164" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">INTERFACES</text>
+<text x="260" y="173" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#FAFAFA" text-anchor="start">REST · WebSockets · gRPC · Webhooks · Sanctum · Spatie Permission</text>
+<path d="M36 192H1164" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="226" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">FRONTEND</text>
+<text x="260" y="227" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#FAFAFA" text-anchor="start">Vue 3 · Nuxt · React · Next.js · Inertia.js · Tailwind CSS</text>
+<path d="M36 246H1164" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">MOBILE</text>
+<text x="260" y="281" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#FAFAFA" text-anchor="start">Flutter · Dart · GetX · Provider</text>
+<path d="M36 300H1164" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="334" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">DONNÉES</text>
+<text x="260" y="335" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#FAFAFA" text-anchor="start">PostgreSQL · MySQL · MongoDB · Redis · Prisma</text>
+<path d="M36 354H1164" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="388" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">DEVOPS</text>
+<text x="260" y="389" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#FAFAFA" text-anchor="start">Linux · Docker · Compose · Nginx · GitLab CI/CD · VPS</text>
+<path d="M36 408H1164" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="36" y="442" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#A1A1AA" text-anchor="start" letter-spacing="1.5">PAIEMENTS</text>
+<text x="260" y="443" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#FAFAFA" text-anchor="start">Orange Money · MTN MoMo · Stripe · CinetPay · NotchPay · FreemoPay</text>
+<path d="M36 462H1164" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
+<text x="36" y="496" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#E9B949" text-anchor="start" letter-spacing="1.5">EN COURS</text>
+<text x="260" y="497" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#A1A1AA" text-anchor="start">Go · IA : LLM · Tool calling · Agents · RAG</text>
+<text x="1164" y="496" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#E9B949" text-anchor="end" letter-spacing="1.5">EN APPRENTISSAGE</text>
+<path d="M36 516H1164" fill="none" stroke="#27272A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "updated": "2026-11-11",
+  "scope": "D\u00e9p\u00f4ts publics d\u00e9tenus par le compte, forks exclus, d\u00e9p\u00f4ts archiv\u00e9s inclus.",
+  "repositories": 28,
+  "primary_languages": 8,
+  "language_counts": {
+    "Non class\u00e9": 8,
+    "HTML": 4,
+    "PHP": 4,
+    "JavaScript": 3,
+    "TypeScript": 3,
+    "Vue": 3,
+    "Astro": 1,
+    "CSS": 1,
+    "Python": 1
+  }
+}
