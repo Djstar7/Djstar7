@@ -84,7 +84,7 @@ class PieceTests(unittest.TestCase):
             with patch.object(artwork, "ROOT", Path(temporary)):
                 artwork.main()
             files = list(Path(temporary).rglob("*.svg"))
-            self.assertEqual(len(files), 5)
+            self.assertEqual(len(files), 4)
             for path in files:
                 source = path.read_text()
                 ET.fromstring(source)

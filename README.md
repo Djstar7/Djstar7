@@ -76,7 +76,7 @@ const djstar7 = {
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Djstar7&background=000000&border=1B2A5E&ring=3D6BFF&fire=3D6BFF&currStrNum=FFFFFF&sideNums=FFFFFF&currStrLabel=A9BCFF&sideLabels=A9BCFF&dates=6B7DB3&stroke=1B2A5E&locale=fr&border_radius=12" alt="Série de contributions GitHub de Djstar7" width="100%">
+<img src="https://streak-stats.demolab.com?user=Djstar7&background=000000&border=1B2A5E&ring=3D6BFF&fire=3D6BFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=3D6BFF&sideLabels=A9BCFF&dates=6B7DB3&stroke=1B2A5E&locale=fr&border_radius=12" alt="Série de contributions GitHub de Djstar7" width="100%">
 
 </div>
 
@@ -105,7 +105,7 @@ const djstar7 = {
 
 <div align="center">
 
-<img src="assets/pieces/mark.svg" width="64" alt="DJSTAR7, étoile à sept branches">
+<img src="assets/brand/djstar7.png" width="170" alt="Logo Djstar7 : Vision. Discipline. Impact.">
 
 <a href="https://www.linkedin.com/in/stael-djune-b34669357/"><img src="https://img.shields.io/badge/LinkedIn-0A1128?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc%2BPHBhdGggZmlsbD0nIzNENkJGRicgZD0nTTQgOWgzLjV2MTFINHpNNS43NSAzLjVhMiAyIDAgMSAxIDAgNCAyIDIgMCAwIDEgMC00ek0xMCA5aDMuM3YxLjZjLjUtLjkgMS43LTEuOSAzLjUtMS45IDMuNiAwIDQuMiAyLjMgNC4yIDUuNFYyMGgtMy41di01LjJjMC0xLjMgMC0yLjktMS44LTIuOXMtMi4xIDEuNC0yLjEgMi44VjIwSDEweicvPjwvc3ZnPg%3D%3D" alt="LinkedIn"></a> <a href="https://gitlab.com/Djstar7"><img src="https://img.shields.io/badge/GitLab-0A1128?style=for-the-badge&logo=gitlab&logoColor=3D6BFF" alt="GitLab"></a> <a href="mailto:infodjstar7@gmail.com"><img src="https://img.shields.io/badge/Email-0A1128?style=for-the-badge&logo=gmail&logoColor=3D6BFF" alt="Email"></a> <a href="https://portfolio-7b9c1c.gitlab.io"><img src="https://img.shields.io/badge/Portfolio-0A1128?style=for-the-badge&logo=googlechrome&logoColor=3D6BFF" alt="Portfolio"></a> <a href="https://github.com/Djstar7"><img src="https://img.shields.io/badge/GitHub-0A1128?style=for-the-badge&logo=github&logoColor=3D6BFF" alt="GitHub"></a>
 

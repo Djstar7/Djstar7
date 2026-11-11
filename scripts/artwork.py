@@ -1,10 +1,9 @@
-"""DJSTAR7 graphic pieces: black background, blue drawing, seven-point mark.
+"""DJSTAR7 product icons: black background, blue drawing.
 
 The README is built from native GitHub elements. Only small pieces are drawn
-here: the DJSTAR7 mark and one icon per product. Standard library only.
+here: one icon per product. The DJSTAR7 logo itself lives in assets/brand/. Standard library only.
 """
 from html import escape
-from math import cos, pi, sin
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -45,19 +44,6 @@ class Piece:
         return path
 
 
-def mark():
-    """{7/3} heptagram on a midnight-blue disc: the DJSTAR7 signature."""
-    s = Piece(160, "DJSTAR7")
-    c, r = 80, 46
-    s.circle(c, c, 66, "night", "line", 1.5)
-    points = [(c + r * cos(-pi / 2 + i * 2 * pi / 7), c + r * sin(-pi / 2 + i * 2 * pi / 7)) for i in range(7)]
-    order = [points[(i * 3) % 7] for i in range(8)]
-    s.path("M" + "L".join(f"{x:.1f} {y:.1f}" for x, y in order), "blue", 3)
-    for x, y in points:
-        s.circle(x, y, 3.5, "light")
-    return s.save("mark")
-
-
 GLYPHS = {
     "kpay": ("KPay", "M0 0H16V16H0ZM40 0H56V16H40ZM0 40H16V56H0ZM28 0V22M28 34V56M40 28H56M0 28H22M40 40H56V56H40"),
     "formcam": ("FormCam", "M28 4L54 16L28 28L2 16ZM2 29L28 41L54 29M2 42L28 54L54 42"),
@@ -77,5 +63,5 @@ def glyph(key):
 
 
 def main():
-    built = [mark()] + [glyph(key) for key in GLYPHS]
+    built = [glyph(key) for key in GLYPHS]
     print(f"Built {len(built)} pieces in {OUTPUT}/")

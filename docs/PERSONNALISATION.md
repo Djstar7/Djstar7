@@ -2,12 +2,13 @@
 
 ## Principe
 
-Le README est construit avec des éléments natifs de GitHub : titres, tableaux, texte et liens. Il ne contient aucun grand panneau en image. Seules cinq petites pièces graphiques sont dessinées : la marque DJSTAR7 et une icône par produit.
+Le README est construit avec des éléments natifs de GitHub : titres, tableaux, texte et liens. Il ne contient aucun grand panneau en image. Il utilise le logo officiel Djstar7 et quatre petites icônes produits dessinées par script.
 
 | Élément | Rôle |
 | --- | --- |
 | `README.md` | Contenu du profil, modifiable directement. |
-| `assets/pieces/` | Marque DJSTAR7 (`mark.svg`) et icônes produits (`kpay`, `formcam`, `estuaire`, `dsie`). |
+| `assets/brand/djstar7.png` | Logo officiel Djstar7 (480 px, coins transparents). |
+| `assets/pieces/` | Icônes produits (`kpay`, `formcam`, `estuaire`, `dsie`). |
 | `scripts/artwork.py` | Couleurs et dessin des pièces. |
 | `scripts/build_artwork.py` | Régénère les pièces. |
 | `scripts/generate_activity.py` | Réécrit le bloc « Activité GitHub » du README. |
