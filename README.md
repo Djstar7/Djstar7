@@ -24,38 +24,38 @@ const djstar7 = {
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/projects/kpay.png" width="64" alt="KPay">
-      <h3>KPay</h3>
+      <a href="https://kpay.site/"><img src="assets/projects/kpay.png" width="64" alt="KPay"></a>
+      <h3><a href="https://kpay.site/">KPay</a></h3>
       <sub>FINTECH</sub>
       <p>Paiements, transferts et tontines intégrés au Mobile Money.</p>
       <p><sub>Next.js · NestJS · Prisma · PostgreSQL · Redis</sub></p>
-      <p><b>400+</b> utilisateurs actifs · <b>23+</b> pays<br><a href="https://github.com/Djstar7/kpay-php-sdk">SDK PHP / Laravel →</a></p>
+      <p><b>400+</b> utilisateurs actifs · <b>23+</b> pays<br><a href="https://kpay.site/"><b>kpay.site →</b></a> · <a href="https://github.com/Djstar7/kpay-php-sdk">SDK PHP / Laravel →</a></p>
     </td>
     <td width="50%" valign="top">
-      <img src="assets/projects/formcam.png" width="64" alt="FormCam">
-      <h3>FormCam</h3>
+      <a href="https://formcamer.com/"><img src="assets/projects/formcam.png" width="64" alt="FormCam"></a>
+      <h3><a href="https://formcamer.com/">FormCam</a></h3>
       <sub>EDTECH · SAAS</sub>
       <p>Formations en ligne, formateurs, partenaires et abonnements.</p>
       <p><sub>Laravel 12 · Vue 3 · Inertia.js 2 · Tailwind CSS</sub></p>
-      <p><b>150+</b> utilisateurs · projet fondé</p>
+      <p><b>150+</b> utilisateurs · projet fondé<br><a href="https://formcamer.com/"><b>formcamer.com →</b></a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/projects/estuaire.png" width="64" alt="Estuaire Emploi">
-      <h3>Estuaire Emploi</h3>
+      <a href="https://play.google.com/store/apps/details?id=com.insam.estuaire_emploie"><img src="assets/projects/estuaire.png" width="64" alt="Estuaire Emploi"></a>
+      <h3><a href="https://play.google.com/store/apps/details?id=com.insam.estuaire_emploie">Estuaire Emploi</a></h3>
       <sub>MOBILE</sub>
       <p>Mise en relation et accès aux offres d'emploi, en temps réel.</p>
       <p><sub>Flutter · Laravel · temps réel</sub></p>
-      <p><b>1 750+</b> utilisateurs</p>
+      <p><b>1 750+</b> utilisateurs<br><a href="https://play.google.com/store/apps/details?id=com.insam.estuaire_emploie"><b>Télécharger sur Google Play →</b></a></p>
     </td>
     <td width="50%" valign="top">
-      <img src="assets/projects/dsie.png" width="64" alt="DSIE">
-      <h3>DSIE</h3>
+      <a href="https://github.com/dsietech"><img src="assets/projects/dsie.png" width="64" alt="DSIE"></a>
+      <h3><a href="https://github.com/dsietech">DSIE</a></h3>
       <sub>INGÉNIERIE</sub>
       <p>Environnement d'ingénierie bâti sur des standards communs.</p>
       <p><sub>DSIE Engineering Standard (DES)</sub></p>
-      <p>Qualité · Sécurité · Tests · Gouvernance Git</p>
+      <p>Qualité · Sécurité · Tests · Gouvernance Git<br><a href="https://github.com/dsietech"><b>github.com/dsietech →</b></a></p>
     </td>
   </tr>
 </table>

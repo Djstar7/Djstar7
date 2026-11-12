@@ -2,7 +2,7 @@ name: Refresh GitHub snapshot
 
 on:
   schedule:
-    - cron: "17 4 * * 1"
+    - cron: "17 4 * * *"
   workflow_dispatch:
   push:
     branches: [main]

@@ -29,7 +29,7 @@ Tout le contenu se modifie directement dans `README.md`. Il ne faut pas toucher 
 
 ## Snapshot GitHub
 
-Le workflow `Refresh GitHub snapshot` s'exécute chaque lundi, sur demande, et à chaque modification des scripts sur `main`. Il compte les dépôts publics détenus par le compte, sans les forks. Il réécrit uniquement le bloc d'activité du README et `assets/generated/`.
+Le workflow `Refresh GitHub snapshot` s'exécute chaque jour à 04:17 UTC, sur demande, et à chaque modification des scripts sur `main`. Il compte les dépôts publics détenus par le compte, sans les forks. Il réécrit uniquement le bloc d'activité du README et `assets/generated/`.
 
 Pour l'exécuter en local :
 
