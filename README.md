@@ -96,7 +96,7 @@ const djstar7 = {
 | CSS | 1 | `███░░░░░░░░░░░░░░░░░` |
 | Non classé | 7 | `████████████████████` |
 
-<sub>Snapshot du 2026-11-12 UTC · forks exclus · un langage principal par dépôt, pas un niveau de maîtrise · [définitions](assets/generated/activity.md) · [tous les dépôts](https://github.com/Djstar7?tab=repositories)</sub>
+<sub>Snapshot du 2026-11-13 UTC · forks exclus · un langage principal par dépôt, pas un niveau de maîtrise · [définitions](assets/generated/activity.md) · [tous les dépôts](https://github.com/Djstar7?tab=repositories)</sub>
 
 </details>
 <!-- activity:end -->
