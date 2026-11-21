@@ -1,6 +1,6 @@
 # Snapshot des dépôts publics
 
-Mis à jour le **2026-11-20 UTC** depuis l'API REST de GitHub.
+Mis à jour le **2026-11-21 UTC** depuis l'API REST de GitHub.
 
 Dépôts publics détenus par le compte, forks exclus, dépôts archivés inclus.
 
